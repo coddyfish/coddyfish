@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        body {  
+            background-color:brown;  
+        }
+        .gamecontainer {  
+            display: flex;  
+            flex-wrap: wrap;  
+        }  
+        .row {  
+            display: flex;  
+            justify-content: space-between;  
+        }  
+        .white-bold {  
+            color: white;  
+            font-weight: bold;  
+        }
+        .btn{
+            border-width: 3px;
+        }
+        .header-carousel-item{
+            height: 600px;
+        }
+        .bg-cover{
+            background-size: cover;
+            background-position: center center;
+        }
+        .carousel-caption{
+            background-color: rgba(0,0,0,.6);
+        }
+        .color-bar {  
+            height: 40px; 
+            background-color:aqua ;
+            width: 100%;   
+            position: relative;  
+            z-index: 1; 
+            margin: 0;  
+            padding: 0; 
+        }
+        .section2{
+            background-color: blue;
+        }
+        .card {  
+            margin-bottom: 1rem;  
+        }
+        .card-img-top {  
+            width: 100%; 
+            height: 500px;
+            object-fit: cover;  
+        }
+        .card-body {  
+            position: relative;  
+        }  
+    </style>
+</head>
+<body>
+    <div class="bg-secondary">
+        <div class="text-right mr-5 d-flex align-items-center justify-content-end">
+            <p class="mr-2 white-bold">觉得不错可以打赏一下^^</p>
+            <a href="./images/tip.jpg" class="text-white mr-2" title="打赏一下"><i class="fa fa-cny" aria-hidden="true"></i></a>
+        </div>
+        </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" title="2105400204鬲子驭" href="#">雕雕小站</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="mainpage.html">首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gamepage.html">网页游戏</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aipage.html">AI工具</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">技术学习</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="escapewall.html">科学上网</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                联系我收录站点
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">coddy1210@gmail.com</a>
+                <a class="dropdown-item" href="#">1905826542</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">我也不知道能搜索什么</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+      <div class="gamecontainer">  
+              
+        
+        <div class="row">      
+            <div class="card col-md-4">      
+              <img src="./images/quehun.jpg" class="card-img-top" alt="1">      
+              <div class="card-body">     
+                <h5 class="card-title">雀魂麻将</h5>     
+                <p class="card-text">日本立直麻将，规则比川麻要复杂一些，强调防守所以做大牌的情况比较少，但上手之后很耐玩，角色也很好看，就是比较肝</p>     
+                <a href="https://game.maj-soul.com" class="btn btn-primary">雀魂启动！</a>  
+              </div>        
+            </div>        
+            <div class="card col-md-4">       
+              <img src="./images/genshin.jpg" class="card-img-top" alt="2">       
+              <div class="card-body">   
+                <h5 class="card-title">原神</h5>       
+                <p class="card-text">你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。游戏发生在一个被称作「提瓦特」的幻想世界</p>      
+                <a href="https://ys.mihoyo.com/main/" class="btn btn-primary">原神启动！</a>     
+              </div>      
+            </div>      
+            <div class="card col-md-4">     
+              <img src="./images/epic.jpg" class="card-img-top" alt="3">     
+              <div class="card-body">      
+                <h5 class="card-title">史诗幻想大战</h5>      
+                <p class="card-text">非常耐玩的系列游戏，而且还是用flash制作的，每一部里面都有许多新生物，作者也融入了各种各样的梗在游玩环节中</p>      
+                <a href="https://www.silvergames.com/en/epic-battle-fantasy-4" class="btn btn-primary">大战启动！</a>     
+              </div>       
+            </div>                   
+          </div>   
+          
+          <div class="row">      
+            <div class="card col-md-4">      
+              <img src="./images/xiyou.jpg" class="card-img-top" alt="4">      
+              <div class="card-body">     
+                <h5 class="card-title">梦幻西游</h5>     
+                <p class="card-text">《梦幻西游》是一款由中国网易公司自行开发并营运的网络国产游戏。（没玩过，看朋友玩着感觉很肝，一整天都在挂机）</p>     
+                <a href="https://xyq.163.com/fab/jlzy/bd/" class="btn btn-primary">西游启动！</a>  
+              </div>        
+            </div>        
+            <div class="card col-md-4">       
+              <img src="./images/sanguo.jpg" class="card-img-top" alt="5">       
+              <div class="card-body">   
+                <h5 class="card-title">三国杀</h5>       
+                <p class="card-text">小学的时候每天中午在托管班玩，后来武将越来越烧脑，网页版还贵的要死就没玩了</p>      
+                <a href="https://i.sanguosha.com/ol.html" class="btn btn-primary">大宝启动！</a>     
+              </div>      
+            </div>      
+            <div class="card col-md-4">     
+              <img src="./images/saier.jpg" class="card-img-top" alt="6">     
+              <div class="card-body">      
+                <h5 class="card-title">赛尔号</h5>      
+                <p class="card-text">小学时候的童年回忆，现在竞技性太高很难重新入手了，摆在这以作纪念</p>      
+                <a href="#" class="btn btn-primary">赛尔启动！</a>     
+              </div>       
+            </div>                   
+          </div>
+      </div>
+    
+
+
+
+
+    <script src="./bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/js/jquery371.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
